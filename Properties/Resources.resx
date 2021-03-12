@@ -127,6 +127,9 @@
   <data name="secured_letter_50px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\secured_letter_50px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="outbox_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\outbox_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logout_rounded_up_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logout_rounded_up_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -139,7 +142,7 @@
   <data name="trash_can_60px" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\trash_can_60px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="outbox_64px" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\outbox_64px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="double_right_96px" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\double_right_96px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

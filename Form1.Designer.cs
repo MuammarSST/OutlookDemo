@@ -29,26 +29,25 @@ namespace OutlookDemo
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button7 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
             this.imgSlide = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgSlide)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,6 +68,87 @@ namespace OutlookDemo
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
             this.guna2Panel1.Size = new System.Drawing.Size(220, 600);
             this.guna2Panel1.TabIndex = 0;
+            // 
+            // guna2HtmlLabel1
+            // 
+            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel1.Location = new System.Drawing.Point(24, 150);
+            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(138, 21);
+            this.guna2HtmlLabel1.TabIndex = 1;
+            this.guna2HtmlLabel1.Text = "Outlook Mailbox";
+            // 
+            // guna2HtmlLabel2
+            // 
+            this.guna2HtmlLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.guna2HtmlLabel2.Location = new System.Drawing.Point(600, 17);
+            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(0);
+            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(267, 23);
+            this.guna2HtmlLabel2.TabIndex = 2;
+            this.guna2HtmlLabel2.Text = "Design By Muammar, SST @ 2021";
+            this.guna2HtmlLabel2.TextAlignment = System.Drawing.ContentAlignment.BottomRight;
+            // 
+            // guna2Panel2
+            // 
+            this.guna2Panel2.Controls.Add(this.guna2Button8);
+            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.guna2Panel2.Location = new System.Drawing.Point(220, 0);
+            this.guna2Panel2.Name = "guna2Panel2";
+            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
+            this.guna2Panel2.Size = new System.Drawing.Size(852, 67);
+            this.guna2Panel2.TabIndex = 1;
+            // 
+            // guna2Panel3
+            // 
+            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel2);
+            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.guna2Panel3.Location = new System.Drawing.Point(220, 551);
+            this.guna2Panel3.Name = "guna2Panel3";
+            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
+            this.guna2Panel3.Size = new System.Drawing.Size(852, 49);
+            this.guna2Panel3.TabIndex = 2;
+            // 
+            // guna2Panel4
+            // 
+            this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.guna2Panel4.Location = new System.Drawing.Point(220, 67);
+            this.guna2Panel4.Name = "guna2Panel4";
+            this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
+            this.guna2Panel4.Size = new System.Drawing.Size(852, 484);
+            this.guna2Panel4.TabIndex = 3;
+            // 
+            // guna2Button8
+            // 
+            this.guna2Button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.guna2Button8.Animated = true;
+            this.guna2Button8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2Button8.BorderRadius = 22;
+            this.guna2Button8.Checked = true;
+            this.guna2Button8.CheckedState.FillColor = System.Drawing.Color.Gainsboro;
+            this.guna2Button8.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
+            this.guna2Button8.CheckedState.Parent = this.guna2Button8;
+            this.guna2Button8.CustomImages.Parent = this.guna2Button8;
+            this.guna2Button8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
+            this.guna2Button8.Font = new System.Drawing.Font("Century Gothic", 10.2F);
+            this.guna2Button8.ForeColor = System.Drawing.Color.White;
+            this.guna2Button8.HoverState.Parent = this.guna2Button8;
+            this.guna2Button8.Image = global::OutlookDemo.Properties.Resources.logout_rounded_up_64px;
+            this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.guna2Button8.IndicateFocus = true;
+            this.guna2Button8.Location = new System.Drawing.Point(677, 12);
+            this.guna2Button8.Name = "guna2Button8";
+            this.guna2Button8.PressedDepth = 0;
+            this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
+            this.guna2Button8.Size = new System.Drawing.Size(163, 43);
+            this.guna2Button8.TabIndex = 1;
+            this.guna2Button8.Text = "Logout";
+            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
             // 
             // guna2Button7
             // 
@@ -232,17 +312,6 @@ namespace OutlookDemo
             this.guna2Button1.CheckedChanged += new System.EventHandler(this.guna2Button1_Click);
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2HtmlLabel1
-            // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(24, 150);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(138, 21);
-            this.guna2HtmlLabel1.TabIndex = 1;
-            this.guna2HtmlLabel1.Text = "Outlook Mailbox";
-            // 
             // guna2PictureBox1
             // 
             this.guna2PictureBox1.Image = global::OutlookDemo.Properties.Resources.register;
@@ -254,80 +323,10 @@ namespace OutlookDemo
             this.guna2PictureBox1.TabIndex = 0;
             this.guna2PictureBox1.TabStop = false;
             // 
-            // guna2Button8
-            // 
-            this.guna2Button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2Button8.Animated = true;
-            this.guna2Button8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button8.BorderRadius = 22;
-            this.guna2Button8.Checked = true;
-            this.guna2Button8.CheckedState.FillColor = System.Drawing.Color.Gainsboro;
-            this.guna2Button8.CheckedState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.guna2Button8.CheckedState.Parent = this.guna2Button8;
-            this.guna2Button8.CustomImages.Parent = this.guna2Button8;
-            this.guna2Button8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.guna2Button8.Font = new System.Drawing.Font("Century Gothic", 10.2F);
-            this.guna2Button8.ForeColor = System.Drawing.Color.White;
-            this.guna2Button8.HoverState.Parent = this.guna2Button8;
-            this.guna2Button8.Image = global::OutlookDemo.Properties.Resources.logout_rounded_up_64px;
-            this.guna2Button8.ImageAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.guna2Button8.IndicateFocus = true;
-            this.guna2Button8.Location = new System.Drawing.Point(677, 12);
-            this.guna2Button8.Name = "guna2Button8";
-            this.guna2Button8.PressedDepth = 0;
-            this.guna2Button8.ShadowDecoration.Parent = this.guna2Button8;
-            this.guna2Button8.Size = new System.Drawing.Size(163, 43);
-            this.guna2Button8.TabIndex = 1;
-            this.guna2Button8.Text = "Logout";
-            this.guna2Button8.Click += new System.EventHandler(this.guna2Button8_Click);
-            // 
-            // guna2HtmlLabel2
-            // 
-            this.guna2HtmlLabel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(600, 17);
-            this.guna2HtmlLabel2.Margin = new System.Windows.Forms.Padding(0);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(267, 23);
-            this.guna2HtmlLabel2.TabIndex = 2;
-            this.guna2HtmlLabel2.Text = "Design By Muammar, SST @ 2021";
-            this.guna2HtmlLabel2.TextAlignment = System.Drawing.ContentAlignment.BottomRight;
-            // 
-            // guna2Panel2
-            // 
-            this.guna2Panel2.Controls.Add(this.guna2Button8);
-            this.guna2Panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.guna2Panel2.Location = new System.Drawing.Point(220, 0);
-            this.guna2Panel2.Name = "guna2Panel2";
-            this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
-            this.guna2Panel2.Size = new System.Drawing.Size(852, 67);
-            this.guna2Panel2.TabIndex = 1;
-            // 
-            // guna2Panel3
-            // 
-            this.guna2Panel3.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel3.Location = new System.Drawing.Point(220, 551);
-            this.guna2Panel3.Name = "guna2Panel3";
-            this.guna2Panel3.ShadowDecoration.Parent = this.guna2Panel3;
-            this.guna2Panel3.Size = new System.Drawing.Size(852, 49);
-            this.guna2Panel3.TabIndex = 2;
-            // 
-            // guna2Panel4
-            // 
-            this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2Panel4.Location = new System.Drawing.Point(220, 67);
-            this.guna2Panel4.Name = "guna2Panel4";
-            this.guna2Panel4.ShadowDecoration.Parent = this.guna2Panel4;
-            this.guna2Panel4.Size = new System.Drawing.Size(852, 484);
-            this.guna2Panel4.TabIndex = 3;
-            // 
             // imgSlide
             // 
             this.imgSlide.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(118)))), ((int)(((byte)(212)))));
-            this.imgSlide.Image = ((System.Drawing.Image)(resources.GetObject("imgSlide.Image")));
+            this.imgSlide.Image = global::OutlookDemo.Properties.Resources.double_right_96px;
             this.imgSlide.Location = new System.Drawing.Point(158, 188);
             this.imgSlide.Name = "imgSlide";
             this.imgSlide.ShadowDecoration.Parent = this.imgSlide;
@@ -354,10 +353,10 @@ namespace OutlookDemo
             this.Text = "Form1";
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgSlide)).EndInit();
             this.ResumeLayout(false);
 
